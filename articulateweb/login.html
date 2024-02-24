@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="loginstyle.css" />
+    <link rel="icon" href="images/articulate1.png" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+
+    <header>
+      <a href="index.html" class="logo">ARTICULATE</a>
+
+      <ul class="navlist">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <a href="index.html" class="close"><i class='bx bx-exit bx-flip-horizontal' ></i></a>
+
+    </header>
+
+      <div class="form-box">
+        <h2>Login</h2>
+        <div class="input-box">
+        <i class='bx bx-envelope' ></i>
+          <input type="email" required placeholder="spon"  />
+          <label>Email</label>
+          <div class="error"></div>
+        </div>
+
+        <div class="input-box">
+        <i class='bx bx-lock-alt'></i>
+          <input type="password" required minlength="8" maxlength="12"/>
+          <label>Password</label>
+          <div class="error"></div>
+        </div>
+
+        <div class="forget">
+          <label> <input type="checkbox" /> Remember me </label>
+          <a href="#">Forgot Password ?</a>
+        </div>
+
+        <div class="loginbox">
+            <a class="login" href="about.html">Sign In</a>
+        </div>
+       
+
+        <div class="register">
+          <p>Don't have an account ? </p>
+          <a href="register.html">  Register here </a>
+        </div>
+      </div>
+  </body>
+</html>
